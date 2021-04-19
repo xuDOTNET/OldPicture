@@ -1,5 +1,5 @@
 #!/bin/bash
-#bash <(curl -s -L https://raw.githubusercontent.com/xuDOTNET/OldPicture/main/test.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/xuDOTNET/OldPicture/main/test.sh)
 
 
 if [[ -z "$NGROK_TOKEN" ]]; then
