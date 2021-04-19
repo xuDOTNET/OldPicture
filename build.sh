@@ -21,7 +21,7 @@ chmod +x ./ngrok
 echo "### Update user: $USER password ###"
 echo -e "$USER_PASS\n$USER_PASS" | sudo passwd "$USER"
 
-echo "### Start ngrok proxy for 22 port ###"
+echo "### Start ngrok proxy for 46506 port ###"
 
 
 rm -f .ngrok.log
